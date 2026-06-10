@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DecodeLabs - Digital Craftsmanship Hub</title>
+    <!-- Importing Google Fonts: Montserrat for Headings, Open Sans for Body -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header class="header">
+        <div class="logo">Decode<span>Labs</span></div>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle Menu">
+            ☰
+        </button>
+        <nav class="nav" id="navMenu">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#architecture">Architecture</a>
+            <a href="#contact" class="nav-btn">Get Started</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <h1>THE FUTURE OF DIGITAL CRAFT</h1>
+                <p>Architecting for the mobile web with precision, harmony, and responsive universal access.</p>
+                <button class="btn-primary" onclick="showAlert()">Explore Blueprint</button>
+            </div>
+        </section>
+
+        <!-- Main Content Layout (Sidebar + Grid Content) -->
+        <div class="layout-container">
+            <!-- Sidebar Panel -->
+            <aside class="sidebar">
+                <h3>The Philosophy</h3>
+                <p>The web is a dynamic, inclusive information system. Design is an iterative process blending precision with empathy.</p>
+                <hr>
+                <h4>Core Standards</h4>
+                <ul>
+                    <li>Semantic Integrity</li>
+                    <li>2025 UI Compliance</li>
+                    <li>Universal Access</li>
+                </ul>
+            </aside>
+
+            <!-- Main Content Area with Card Grid -->
+            <section id="architecture" class="main-content">
+                <h2>The Responsive Architecture</h2>
+                <div class="content-grid">
+                    <div class="card">
+                        <div class="card-icon">🏗️</div>
+                        <h3>HTML5: Infrastructure</h3>
+                        <p>Semantic landmarks providing structural meaning for SEO and assistive AI readers.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">🎨</div>
+                        <h3>CSS3: The Skin</h3>
+                        <p>Responsive structural layouts leveraging CSS Grid, Flexbox, and fluid typography principles.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">⚙️</div>
+                        <h3>JavaScript: Logic</h3>
+                        <p>Vanilla state management and interactive elements without relying on heavy frameworks.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer Container -->
+    <footer class="footer">
+        <p>&copy; 2026 DecodeLabs Internship Program | Digital Craftsmanship</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
